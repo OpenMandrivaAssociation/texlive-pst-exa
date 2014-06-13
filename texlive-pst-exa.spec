@@ -6,7 +6,7 @@
 # catalog-version 0.01
 Name:		texlive-pst-exa
 Version:	0.01
-Release:	6
+Release:	7
 Summary:	Typeset PSTricks examples, with code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-exa
