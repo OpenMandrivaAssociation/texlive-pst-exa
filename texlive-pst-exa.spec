@@ -1,12 +1,6 @@
-# revision 22113
-# category Package
-# catalog-ctan /graphics/pstricks/contrib/pst-exa
-# catalog-date 2011-04-14 19:55:22 +0200
-# catalog-license lppl
-# catalog-version 0.01
 Name:		texlive-pst-exa
-Version:	0.01
-Release:	10
+Version:	0.06
+Release:	1
 Summary:	Typeset PSTricks examples, with code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-exa
@@ -33,11 +27,8 @@ other.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/pst-exa/pst-exa.sty
-%doc %{_texmfdistdir}/doc/latex/pst-exa/Changes
-%doc %{_texmfdistdir}/doc/latex/pst-exa/README
-%doc %{_texmfdistdir}/doc/latex/pst-exa/pst-exa-doc.pdf
-%doc %{_texmfdistdir}/doc/latex/pst-exa/pst-exa-doc.tex
+%{_texmfdistdir}/tex/latex/pst-exa
+%doc %{_texmfdistdir}/doc/latex/pst-exa
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,17 +39,3 @@ other.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.01-2
-+ Revision: 755270
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.01-1
-+ Revision: 719348
-- texlive-pst-exa
-- texlive-pst-exa
-- texlive-pst-exa
-- texlive-pst-exa
-
