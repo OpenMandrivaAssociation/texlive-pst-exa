@@ -1,6 +1,6 @@
 Name:		texlive-pst-exa
 Version:	0.06
-Release:	1
+Release:	2
 Summary:	Typeset PSTricks examples, with code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-exa
