@@ -3,7 +3,7 @@ Version:	45289
 Release:	2
 Summary:	Typeset PSTricks examples, with code
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-exa
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-exa
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-exa.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-exa.doc.r%{version}.tar.xz
